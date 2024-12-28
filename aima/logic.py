@@ -2037,7 +2037,6 @@ def fol_bc_and(kb, goals, theta):
             for theta2 in fol_bc_and(kb, rest, theta1):
                 yield theta2
 
-
 # A simple KB that defines the relevant conditions of the Wumpus World as in Figure 7.4.
 # See Sec. 7.4.3
 wumpus_kb = PropKB()
